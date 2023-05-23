@@ -1,0 +1,13 @@
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating img+img {
+  margin-left: 5px;
+}
+
+.rating-star-off {
+  filter: grayscale(1);
+}
