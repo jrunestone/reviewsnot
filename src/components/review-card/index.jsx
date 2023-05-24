@@ -7,7 +7,7 @@ export default function ReviewCard(props) {
       <div className={styles["review-card-inner"]}>
         <Rating on={props.rating} />
         <hr />
-        <p>{props.text}</p>
+        <p className={styles["review-card-text"]}>"{props.text}"</p>
       </div>
     </div>
   )
