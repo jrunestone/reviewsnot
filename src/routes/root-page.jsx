@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 
-const goToRandomItem = () => window.location = '/random';
+const goToRandomItem = () => window.location = '/';
 
 export default function RootPage() {
   return (
